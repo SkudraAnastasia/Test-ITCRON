@@ -64,7 +64,7 @@ let employees = [
 
 func printEmployees(_ employees: [Employee]) {
     for employee in employees {
-        if employee.age > 18 && employee.salary > 0 {
+        if employee.age >= 18 && employee.salary > 0 {
             print(employee.name)
         } else {
             print("Неверно указаны данные")
